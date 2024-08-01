@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	 <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+
+	<!-- landing nav section -->
+
+    <nav class="navbar" style="height: 50px;">
+        <div class="navbar-left">
+            <a href=""><img src="./LOGO.png" alt="logo" class="icon"></a>
+        </div>
+        <div class="navbar-center">
+            <a href="./index.html">Home</a>
+            <a href="./categories.html">categories</a>
+            <a href="./aboutUs.html">About Us</a>
+        </div>
+        <div class="navbar-right">
+            <a href="./cart1.html"><img src="./cart.png" alt="Bag" class="icon"></a>
+            <a href="./signIn.html"><img src="./account.png" alt="Account" class="icon"></a>
+        </div>
+    </nav>
+
+	<!-- register section -->
+	<div class="login-container">
+		<h2>Register</h2>
+		<form id="register-form">
+			<input type="text" placeholder="   Enter full name" id="username">
+			<input type="email" placeholder="   Email" id="email">
+			<input type="password" placeholder="   Password" id="password">
+			<input type="confirm password" placeholder="   Confirm your password" id="password">
+			<button id="register-btn">Register</button>
+			<p>Already have an account? <a href="./signIn.html">Login</a></p>
+		</form>
+	</div>
+
+	<script src="./register.js"></script>
+</body>
+</html>

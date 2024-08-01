@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceed</title>
+    <link rel="stylesheet" href="./cart2.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-box">
+           <a href="./cart1.html"> <button class="back-button">
+                <img src="./proceed cart arrow.png" alt="Back">
+            </button></a>
+            <p class="top-box-text">Back to Products</p>
+        </div>
+        <div class="product-box">
+            <img src="./Chicken.jpg" alt="Product 1" class="product-image">
+            <div class="product-text">
+                <p>Chicken Fry</p>
+                <p> INR 100.00</p>
+            </div>
+            <div class="quantity-section">
+                <button class="minus-button" onclick="decreaseCount('count1')">−</button>
+                <span id="count1">1</span>
+                <button class="plus-button" onclick="increaseCount('count1')">+</button>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Egg with salad.jpg" alt="Product 2" class="product-image">
+            <div class="product-text">
+                <p>Egg with Salad</p>
+                <p>INR 50.00</p>
+            </div>
+            <div class="quantity-section">
+                <button class="minus-button" onclick="decreaseCount('count2')">−</button>
+                <span id="count2">1</span>
+                <button class="plus-button" onclick="increaseCount('count2')">+</button>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./salad.jpg" alt="Product 3" class="product-image">
+            <div class="product-text">
+                <p>Plain salad</p>
+                <p>INR 30.00</p>
+            </div>
+            <div class="quantity-section">
+                <button class="minus-button" onclick="decreaseCount('count3')">−</button>
+                <span id="count3">1</span>
+                <button class="plus-button" onclick="increaseCount('count3')">+</button>
+            </div>
+        </div>
+        <div class="apply-box">
+            <img src="./coupon.png" alt="Logo" class="logo">
+            <span class="apply-text">Apply Coupon</span>
+            <button class="apply-button">Apply</button>
+        </div>
+        <div class="info-box">
+            <h4>Subtotal:<p>INR 180.00</p></h4>
+            <hr>
+            <h4>Shipping:<p> INR 40.00</p></h4>
+            <hr>
+            <h3><b>Total:<p> INR 220.00</b></p></h3>
+        </div>
+        <button class="proceed-button">PROCEED</button>
+    </div>
+    <script src="./cart2.js"></script>
+</body>
+</html>
