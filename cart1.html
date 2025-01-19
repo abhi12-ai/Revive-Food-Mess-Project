@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Bag</title>
+    <link rel="stylesheet" href="./cart1.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-box">
+            <a href="./index.html"><button class="back-button">
+                <img src="./proceed cart arrow.png" alt="Back">
+            </button></a>
+            <button class="love-button" onclick="toggleLove()">
+                <img src="./heart logo.png" alt="Love" id="love-icon">
+            </button>
+            <div class="image-box">
+                <img src="./south food mess.jpg" alt="Product Image">
+            </div>
+        </div>
+        <div class="text-section">
+            <h1>Idli Chutney</h1>
+            <p>INR 30</p>
+        </div>
+        <div class="counter-section">
+            <button class="minus-button" onclick="decreaseCount()">−</button>
+            <span id="count">1</span>
+            <button class="plus-button" onclick="increaseCount()">+</button>
+        </div>
+        <a href="./cart2.html"><button class="move-to-cart-button">
+            <img src="./cart.png" alt="Cart" class="cart-logo">
+           Add to Bag
+        </button></a>
+    </div>
+    <script src="./cart1.js"></script>
+</body>
+</html>

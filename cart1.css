@@ -1,0 +1,135 @@
+body {
+    font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #f1f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.top-box {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button img {
+    width: 24px;
+    height: 24px;
+    background-color:#f1f1f1 ;
+}
+
+.love-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.love-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.love-button.red img {
+    filter: invert(35%) sepia(81%) saturate(6621%) hue-rotate(340deg) brightness(100%) contrast(109%);
+}
+
+.image-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f3f2f2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.text-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.counter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.counter-section button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.counter-section span {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.move-to-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fd0303d5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+
+}
+
+.move-to-cart-button:hover{
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.cart-logo {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
